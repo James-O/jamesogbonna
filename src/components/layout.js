@@ -7,8 +7,8 @@ import {Outlet} from "react-router-dom"
 
 function Header() {
   return (
-    <div>
-        <Navbar expand="lg" className="shadow">
+    <div className='sticky-top'>
+        <Navbar expand="lg" className="shadow ">
         <Container>
             <Navbar.Brand href="/" className='text-white'>Home</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

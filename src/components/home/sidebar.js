@@ -1,14 +1,11 @@
 import React from 'react'
 import { Check } from '../../icon/icon'
-
-
-import {
-    Sidebar,Nav,NavItem,NavLink,
-  } from "@asphalt-react/sidebar";
+import {Sidebar,Nav,NavItem} from "@asphalt-react/sidebar";
   
-  const SidebarLinear = () => {
+  
+const SidebarLinear = () => {
     return (
-      <div className="mb-2 nav-static">
+      <div className="mb-2 sticky-top">
         <Sidebar >
           <div className='rounded' style={{background:"#2F3645",padding:"4rem",color:"#ffffff"}}>
             <Nav>
