@@ -19,7 +19,7 @@ export default function Aboutme() {
             </div>
             <button className='btn btn-warning mt-4'>Contact me</button>
           </div>
-          <img src='images/Jamespicsnobg.PNG' alt='Pic' className='w-25 mx-auto rounded-pill'/>
+          <img src='images/Jamespicsnobg.png' alt='Pic' className='w-25 mx-auto rounded-pill'/>
         </div>
       </div>
     </div>
