@@ -10,7 +10,7 @@ const SidebarLinear = () => {
           <div className='rounded' style={{background:"#2F3645",padding:"4rem",color:"#ffffff"}}>
             <Nav>
             <NavItem>
-                <img src='images/Jamespicsnobg.PNG' className='w-75 rounded-pill ms-4' alt='profile'/>
+                <img src='images/Jamespicsnobg.png' className='w-75 rounded-pill ms-4' alt='profile'/>
             </NavItem>
             <NavItem>
                 <h4 style={{color:'orangered'}}>Ogbonna James</h4>
