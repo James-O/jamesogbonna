@@ -3,10 +3,13 @@ import React from 'react'
 export default function Aboutme() {
   return (
     <div className='me-4 rounded'>
-      <div style={{
-        backgroundImage: "url(" + "images/mountain4.jpeg" + ")",
-        opacity:"70%",backgroundSize:"cover"}} className='p-5 mt-3 container'>
-          {/*  */}
+      {/* <div style={{
+        backgroundImage: "url(" + "images/city.webp" + ")",
+        opacity:"100%",backgroundSize:"cover"}} className='p-5 mt-3 container'> */}
+      <div className='w-100'>
+        <img src='images/city.webp' alt='city' className='w-100' style={{height:"400px"}}/>
+      </div>
+      <div style={{marginTop:"-17rem"}} className='ms-5'>
         <div className='d-flex' style={{opacity:"100%"}}>
           <div>
             <h1 style={{color:"orangered"}}>Discover my Amazing<br/> Art Space!</h1>
@@ -26,12 +29,3 @@ export default function Aboutme() {
   )
 }
 
-
- // style={{  
-    //   backgroundImage: "url(" + "images/lag2.jpeg" + ")",
-    // }}
-    // <div>
-    //         <h3 className='text-white mt-2'><span className='text-warning'>&lt;code&gt;</span> I build <span className='txt-rotate' data-period="2000" data-rotate="['web applications','web interface','design mocups']">
-    //           <span className='wrap'></span>web applications</span> 
-    //           <span className='text-warning'>&lt;code&gt;</span></h3>
-    //       </div>

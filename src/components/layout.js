@@ -7,15 +7,16 @@ import {Outlet} from "react-router-dom"
 
 function Header() {
   return (
-    <div className='sticky-top'>
-        <Navbar expand="lg" className="shadow ">
+    <div className='sticky-top' style={{background:"#fff"}}>
+    {/* <div className='sticky-top' style={{background:"#F1F1F1"}}> */}
+        <Navbar expand="lg" className="shadow" style={{height:"60px"}}>
         <Container>
-            <Navbar.Brand href="/" className='text-white'>Home</Navbar.Brand>
+            <Navbar.Brand href="/" className='text-black-50'>Home</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="/portfolio" className='text-white'>Portfolio</Nav.Link>
-                <Nav.Link href="/certification" className='text-white'>Certifications</Nav.Link>
+                <Nav.Link href="/portfolio" className='text-black-50'>Portfolio</Nav.Link>
+                <Nav.Link href="/certification" className='text-black-50'>Certifications</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
