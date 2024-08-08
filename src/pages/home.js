@@ -4,6 +4,8 @@ import Aboutme from '../components/home/aboutme'
 import Header from '../components/layout'
 import Services from '../components/home/services'
 import Works from '../components/home/works'
+import Contactinfo from '../components/home/contactinfo'
+import Contactform from '../components/home/contactform'
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
                   <Aboutme/>
                   <Services/>
                   <Works/>
+                  <Contactinfo/>
+                  <Contactform/>
                 </div>
             </div>
         </div>

@@ -5,6 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Check, Email, Github, Linkedin, List, Twitter } from '../../icon/icon';
 import {Nav,NavItem} from "@asphalt-react/sidebar";
 import { Link } from 'react-router-dom';
+import { Download } from '@mui/icons-material';
 
 function SidebarLinear() {
   const [show, setShow] = useState(false);
@@ -31,7 +32,7 @@ function SidebarLinear() {
           <div className='ps-3' style={{background:"#fff",color:"#"}}>
             <Nav>
             <NavItem >
-                <img src='images/Jamespicsnobg.png' className='w-50 rounded-pill ms-4 mt-4' alt='profile'/>
+                <img src='images/Jamespicsnobg.png' className='w-50 rounded-pill ms-4 mt-4 bg-primary' alt='profile'/>
             </NavItem>
             <NavItem>
                 <h4 style={{color:'orangered'}}>Ogbonna James</h4>
@@ -67,11 +68,19 @@ function SidebarLinear() {
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
-                    <p>JavaScript, Node, Express</p>
+                    <p>Reactjs, Nextjs</p>
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
-                    <p>C#, .NET MVC, .NETCore MVC</p>
+                    <p>JavaScript, Nodejs, Expressjs</p>
+                </div>
+                <div className='d-flex gap-2'>
+                    <div className='text-warning'><Check/></div>
+                    <p>C#,.NET 6.0, .NET Core MVC, EFcore</p>
+                </div>
+                <div className='d-flex gap-2'>
+                    <div className='text-warning'><Check/></div>
+                    <p>Swagger, Postman, Tunder client</p>
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
@@ -81,7 +90,13 @@ function SidebarLinear() {
                     <div className='text-warning'><Check/></div>
                     <p>REST API</p>
                 </div>
+                <div className='d-flex gap-2'>
+                    <div className='text-warning'><Check/></div>
+                    <p>vercel, netlify, Version control(Git)</p>
+                </div>
             </NavItem>
+            <hr/>
+            <p>View resume <Link to={'https://drive.google.com/file/d/1DbkT8vAG5v08J45Y78llJpLFihNATKtX/view?usp=sharing'} className='text-black'><Download/></Link></p>
             <hr/>
             <div className="row px-3 pb-3">
               <Link to={'https://www.linkedin.com/in/ogbonna-sundayj/'}

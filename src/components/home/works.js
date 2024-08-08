@@ -79,6 +79,7 @@ export default function Works() {
                 <p className='bg-black text-white p-4'></p>
             </Link>
         </div>
+        <Link to={'/portfolio'} className='btn btn-warning mx-auto d-flex w-25 justify-content-center'>Show All</Link>
     </div>
   )
 }
