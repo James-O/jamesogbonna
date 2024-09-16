@@ -6,6 +6,7 @@ import { Check, Email, Github, Linkedin, List, Twitter } from '../../icon/icon';
 import {Nav,NavItem} from "@asphalt-react/sidebar";
 import { Link } from 'react-router-dom';
 import { Download } from '@mui/icons-material';
+import Spinner from 'react-bootstrap/Spinner'
 
 function SidebarLinear() {
   const [show, setShow] = useState(false);
@@ -29,10 +30,13 @@ function SidebarLinear() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           {/* <div className='rounded' style={{background:"#2F3645",color:"#ffffff"}}> */}
-          <div className='ps-3' style={{background:"#fff",color:"#"}}>
+          <div className='ps-3 shadow-lg' style={{background:"#F1F1F1",color:""}}>
             <Nav>
             <NavItem >
                 <img src='images/Jamespicsnobg.png' className='w-50 rounded-pill ms-4 mt-4 bg-primary' alt='profile'/>
+                <div style={{marginTop:"-2rem",marginLeft:"9.5rem"}}>
+                  <Spinner animation="grow" size="sm" variant='warning' />
+                </div>
             </NavItem>
             <NavItem>
                 <h4 style={{color:'orangered'}}>Ogbonna James</h4>
@@ -60,7 +64,7 @@ function SidebarLinear() {
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
-                    <p>Material UI, React Bootstrap,</p>
+                    <p>Material UI, React Bootstrap, Antd</p>
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>

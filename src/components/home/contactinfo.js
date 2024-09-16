@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom'
 export default function Contactinfo() {
   return (
     <div>
-        <div className='row text-white my-5'>
-            <div className='col-sm-12 col-md-8 col-lg-4'>
-                <div className='shadow w-100 h-100 p-3'>
+        <div className='row text-white my-5 me-3'>
+            <div className='col-sm-12 col-md-8 col-lg-4 mb-4'>
+                <div className='shadow w-100 h-100 p-3 bg-black'>
                     <p>Country: Nigeria</p>
                     <p>City: Lagos</p>
                 </div>
             </div>
-            <div className='col-sm-12 col-md-8 col-lg-4 shadow'>
-                <div className='shadow w-100 h-100 p-3'>
+            <div className='col-sm-12 col-md-8 col-lg-4 mb-4'>
+                <div className='shadow w-100 h-100 p-3 bg-black'>
                     <p>Email: ogbonnasunday42@gmail.com</p>
                     <p>Phone: +2348138304029</p>
                     <p>Resume: view resume 
@@ -23,8 +23,8 @@ export default function Contactinfo() {
                     </p>
                 </div>
             </div>
-            <div className='col-sm-12 col-md-8 col-lg-4 shadow'>
-                <div className='shadow w-100 h-100 p-3'>
+            <div className='col-sm-12 col-md-8 col-lg-4 mb-4'>
+                <div className='shadow w-100 h-100 p-3 bg-black'>
                     <p>Linkedin <Linkedin/></p>
                     <p>Github <Github/></p>
                 </div>

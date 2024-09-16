@@ -13,7 +13,7 @@ export default function Works() {
         });
     },[])
   return (
-    <div>
+    <div className='me-4'>
         <h1 className='text-white-50 ms-2 my-5'>My Works</h1>
         <div className='row text-white'>
             <Link to={'https://portfolio-five-jade-76.vercel.app/'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
