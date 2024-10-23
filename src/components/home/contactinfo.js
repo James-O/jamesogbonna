@@ -18,7 +18,7 @@ export default function Contactinfo() {
                     <p>Email: ogbonnasunday42@gmail.com</p>
                     <p>Phone: +2348138304029</p>
                     <p>Resume: view resume 
-                        <Link to={'https://drive.google.com/file/d/1DbkT8vAG5v08J45Y78llJpLFihNATKtX/view?usp=sharing'} className='text-white'>
+                        <Link to={'https://drive.google.com/file/d/1U-jKZ3nPpcR4k_dk2KBPh87_DE7aHqjv/view?usp=drive_link'} className='text-white'>
                         <Download/></Link>
                     </p>
                 </div>

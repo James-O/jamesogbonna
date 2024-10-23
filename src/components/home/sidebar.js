@@ -68,7 +68,7 @@ function SidebarLinear() {
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
-                    <p>Slick, AOS</p>
+                    <p>Slick, AOS, Flowbite React</p>
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
@@ -88,7 +88,7 @@ function SidebarLinear() {
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
-                    <p>Sql, Msql, Mongoo, MSsql</p>
+                    <p>Sql, Msql, Mongoo, MSsql, Firebase</p>
                 </div>
                 <div className='d-flex gap-2'>
                     <div className='text-warning'><Check/></div>
@@ -100,7 +100,7 @@ function SidebarLinear() {
                 </div>
             </NavItem>
             <hr/>
-            <p>View resume <Link to={'https://drive.google.com/file/d/1DbkT8vAG5v08J45Y78llJpLFihNATKtX/view?usp=sharing'} className='text-black'><Download/></Link></p>
+            <p>View resume <Link to={'https://drive.google.com/file/d/1U-jKZ3nPpcR4k_dk2KBPh87_DE7aHqjv/view?usp=drive_link'} className='text-black'><Download/></Link></p>
             <hr/>
             <div className="row px-3 pb-3">
               <Link to={'https://www.linkedin.com/in/ogbonna-sundayj/'}
