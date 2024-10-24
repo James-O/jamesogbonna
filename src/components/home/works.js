@@ -70,12 +70,22 @@ export default function Works() {
             </Link>
             <Link to={'https://codepen.io/Ogbonna-James/full/zYBRgKj'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
                 <img src='images/survey.PNG' alt='#' className='w-100 h-75'/>
-                <p className='overlay'>Tave a survey to improve project</p>
+                <p className='overlay'>Take a survey to improve project</p>
                 <p className='bg-black text-white p-4'></p>
             </Link>
-            <Link to={'https://travel-reservation-azure.vercel.app/'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
-                <img src='images/travel.PNG' alt='#' className='w-100 h-75'/>
-                <p className='overlay'>Travel reservation website</p>
+            <Link to={'https://github.com/James-O/AdminDashboard'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
+                <img src='images/dashboard.PNG' alt='#' className='w-100 h-75'/>
+                <p className='overlay'>Admin dashboard website for business analysis</p>
+                <p className='bg-black text-white p-4'></p>
+            </Link>
+            <Link to={'https://github.com/James-O/bookstore-inventory/'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
+                <img src='images/bookstore.PNG' alt='#' className='w-100 h-75'/>
+                <p className='overlay'>Book Store inventory management system</p>
+                <p className='bg-black text-white p-4'></p>
+            </Link>
+            <Link to={'https://github.com/James-O/Movie'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
+                <img src='images/imdbclone.PNG' alt='#' className='w-100 h-75'/>
+                <p className='overlay'>Movie booking website</p>
                 <p className='bg-black text-white p-4'></p>
             </Link>
         </div>
