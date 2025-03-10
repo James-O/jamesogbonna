@@ -88,6 +88,11 @@ export default function Works() {
                 <p className='overlay'>Movie booking website</p>
                 <p className='bg-black text-white p-4'></p>
             </Link>
+            <Link to={'https://career-nexus.com'} className='col-sm-6 col-md-4 col-lg-4 mb-4 shadow project-image' data-aos="zoom-in">
+                <img src='images/career-nexus.png' alt='#' className='w-100 h-75'/>
+                <p className='overlay'>Career-Nexus Ltd</p>
+                <p className='bg-black text-white p-4'></p>
+            </Link>
         </div>
         <Link to={'/portfolio'} className='btn btn-warning mx-auto d-flex w-25 justify-content-center'>Show All</Link>
     </div>
